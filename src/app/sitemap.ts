@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { products } from '@/data/products';
-import { blogPosts, caseStudies } from '@/data/blog';
+import { blogPosts } from '@/data/blog';
+import { caseStudies } from '@/data/case-studies';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://markasai.id';
